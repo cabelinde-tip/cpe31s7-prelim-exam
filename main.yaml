@@ -1,8 +1,8 @@
 ---
-- name: Quiz2
+- name: Prelim Exam
   hosts: target
   vars:
-    password: AnsibleManaged
+    password: PrelimExam
 
   tasks:
   - name: Change motd in /etc/motd
